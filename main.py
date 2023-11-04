@@ -12,7 +12,7 @@ def main():
 
     st.markdown("This app will help you to predict your car selling price")
     p1 = st.number_input("Enter car showroom price",2.5 ,25.5, step=1.0)
-    p2 = st.number_input("Enter car showroom price",100 ,50000 ,step=100)
+    p2 = st.number_input("Enter car Driven",100 ,50000 ,step=100)
 
     s1 = st.selectbox("Select the fuel_type", ("Petrol", "Diesel", "CNG"))
     if s1== 'Petrol': 
